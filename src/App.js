@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Starships from './components/Starships/Starships';
+import Logo from './assets/images/millennium-falcon.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header-content">
+        <img src={Logo} height="50px" alt="millennium falcon icon" />
+        <h1>Starship Catalogue</h1>
+      </div>
+      <Starships />
+      <div className="footer">
+        <h3>The Force will be with you. Always.</h3>
+      </div>
     </div>
   );
 }

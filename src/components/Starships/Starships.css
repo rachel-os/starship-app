@@ -1,0 +1,23 @@
+.starshipList {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.loading, .error-message  {
+  color: white;
+}
+
+.sort-by-btn {
+  margin: 1em;
+}
+.starshipCard {
+margin: 2rem;
+}
+
+.anticon-selected{
+  color: #F2A74B;
+}
